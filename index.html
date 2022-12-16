@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="css.csss">
+</head>
+<body onLoad="atualizarTarefas();">
+    <header style="width:500px; background-color: antiquewhite;text-align: center;padding: 5px;border-radius: 10px;display: block;margin: auto;">
+
+        <h1 style="font-family: sans-serif;" >
+            Lista de tarefas
+        </h1>
+        <br>
+
+        <input type="text" name="txtTarefa" id="txtTarefa">
+        <input type="button" value="Adicionar" onclick="AdicionaTarefa()">
+        
+        <div id = "erroMsg" style="display:block;margin:auto;">
+
+        </div>
+
+    </header>
+
+    <div id = "geral" style = "width: 500px; display: flex; flex-direction: column;margin: auto;"> 
+
+    </div>
+
+    <script src="js.js"></script>
+
+</body>
+</html>
